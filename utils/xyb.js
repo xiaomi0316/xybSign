@@ -379,12 +379,12 @@ const getHeaders = function (url, data) {
     Connection: "keep-alive",
     "User-agent":
       "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 MicroMessenger/7.0.9.501 NetType/WIFI MiniProgramEnv/Windows WindowsWechat",
-    // referer: "https://servicewechat.com/wx9f1c2e0bbc10673c/317/page-frame.html",
+    referer: "https://servicewechat.com/wx9f1c2e0bbc10673c/454/page-frame.html",
     "Accept-Encoding": "gzip, deflate, br",
     "Accept-Language": "zh-cn",
     "content-type": "application/x-www-form-urlencoded",
     v: "1.6.36",
-    // xweb_xhr: 1,
+    xweb_xhr: 1,
   };
   let n = Z.nocheckArrs(data).join(","),
     a = Z.getTokenData(data, url);
